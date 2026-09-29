@@ -84,20 +84,11 @@ CONFIG  -  BepInEx\config\uncertain.vr.cfg  (created on first launch; edits appl
 
 TROUBLESHOOTING
 ---------------
-* Log: BepInEx\LogOutput.log - please send it with any report (close the game first).
-  If the game crashes, also send BepInEx\UncVR_trace.log.
-  
-* Nothing happens at all (no LogOutput.log): rename winhttp.dll to version.dll and try again.
-  
+
 * Black screen / the game does not start properly: open BepInEx\config\BepInEx.cfg and under
-  [Preloader.Entrypoint] change  Type = Camera  to  Type = MonoBehaviour.  If it crashes, also send
-  the game's Unity log (TUE1_Data\output_log.txt, next to the .exe).
-  
-* The picture looks too bright / too dark: set [Camera] CopyCameraEffects = None and tell me.
+  [Preloader.Entrypoint] change  Type = Camera  to  Type = MonoBehaviour. 
 
 * Menus, icons or the cursor appear upside down on the VR screen: set [UI] FlipGameGUI = true.
-
-* The game freezes or crashes when a menu opens: set [UI] ShowGameGUI = false and tell me.
 
 * The screen with the menus is hard to see: try [UI] FollowMode = Lazy (floats in front of you).
 
