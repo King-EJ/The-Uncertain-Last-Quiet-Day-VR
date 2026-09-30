@@ -28,14 +28,12 @@ WHAT IT DOES
 
 INSTALL
 -------
-1. Copy EVERYTHING in this zip into the game folder (next to the game's .exe), overwrite.
-   Important: this includes BepInEx\config\BepInEx.cfg - it tells BepInEx to start in a way that
-   works with this old Unity version (the normal way gives a black screen).
-3. IMPORTANT Create shortcut and add these launch options  "-force-gfx-direct"
+1. Copy EVERYTHING in this zip into the game folder (next to the game's .exe), 
+2. IMPORTANT Create shortcut and add these launch options  "-force-gfx-direct"
       (this old Unity version can only hand its picture to the headset when it renders on the main
    thread; without it the game crashes on the first VR frame, so the mod will not start VR).
-4. Back up your steam_api64.dll (steam_api64.dll.bak) SteamLibrary\steamapps\common\The Uncertain\TUE1_Data\Plugins and replace with new .dll
-5. Start Virtual Desktop OpenXR runtime), then launch the game FROM shortcut
+3. Back up your steam_api64.dll (steam_api64.dll.bak) SteamLibrary\steamapps\common\The Uncertain\TUE1_Data\Plugins and replace with new .dll
+4. Start Virtual Desktop OpenXR runtime), then launch the game FROM shortcut
  
 CONTROLS (right-handed default; the game runs in its gamepad mode)
 ------------------------------------------------------------------
