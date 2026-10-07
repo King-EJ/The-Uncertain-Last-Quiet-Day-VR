@@ -33,6 +33,7 @@ INSTALL
 -------
 1. Copy EVERYTHING in this zip into the game folder (next to the game's .exe), 
 2. Start Virtual Desktop OpenXR runtime), then launch the game FROM shortcut
+3. Back up your steam_api64.dll (steam_api64.dll.bak) SteamLibrary\steamapps\common\The Uncertain\TUE1_Data\Plugins and replace with new .dll (find on your own)
 
 To disable Mod: rename winhttp.dll to winhttp.dll.bak or  win http.dll  (or set enabled = false in doorstop_config.ini).
 
