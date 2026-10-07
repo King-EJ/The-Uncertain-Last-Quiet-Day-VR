@@ -32,11 +32,7 @@ WHAT IT DOES
 INSTALL
 -------
 1. Copy EVERYTHING in this zip into the game folder (next to the game's .exe), 
-2. IMPORTANT Create shortcut and add these launch options  "-force-gfx-direct"
-      (this old Unity version can only hand its picture to the headset when it renders on the main
-   thread; without it the game crashes on the first VR frame, so the mod will not start VR).
-3. Back up your steam_api64.dll (steam_api64.dll.bak) SteamLibrary\steamapps\common\The Uncertain\TUE1_Data\Plugins and replace with new .dll
-4. Start Virtual Desktop OpenXR runtime), then launch the game FROM shortcut
+2. Start Virtual Desktop OpenXR runtime), then launch the game FROM shortcut
 
 To disable Mod: rename winhttp.dll to winhttp.dll.bak or  win http.dll  (or set enabled = false in doorstop_config.ini).
 
